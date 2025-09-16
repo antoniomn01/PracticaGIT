@@ -6,10 +6,11 @@ public class Class1
 	{
 		public int a = 20;
 		public int b = 5;
-		public int GetArea()
+		public int GetPitagorasNum()
 		{
-			return a * b;
+			return Math.Sqrt((a*a)+(b*b));
 		}
+
 
 	}
 }
