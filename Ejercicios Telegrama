@@ -1,0 +1,15 @@
+using System;
+
+public class Class1
+{
+	public Class1()
+	{
+		public int a = 20;
+		public int b = 5;
+		public int GetArea()
+		{
+			return a * b;
+		}
+
+	}
+}
