@@ -2,26 +2,22 @@ using System;
 
 public class Class1
 {
-	public Class1()
+	public int a = 20;
+	public int b = 5;
+
+	public Class1(int a, int b)
 	{
-		public int a = 20;
-		public int b = 5;
-
-		public Class1(int a, int b)
-		{
-			this.a= a;
-			this.b = b;
-		}
-
-		public int GetPitagorasNum()
-		{
-			return Math.Sqrt((a*a)+(b*b));
-		}
-		public int GetArea()
-		{
-			return (a*b)/2;
-		}
-		
-
+		this.a= a;
+		this.b = b;
 	}
+
+	public int GetPitagorasNum()
+	{
+		return Math.Sqrt((a*a)+(b*b));
+	}
+	public int GetArea()
+	{
+		return (a*b)/2;
+	}
+	
 }
